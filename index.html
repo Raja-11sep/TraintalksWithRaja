@@ -4,82 +4,172 @@
   <meta charset="UTF-8">
   <title>Train Talks with Raja</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Segoe UI", Arial, sans-serif;
       margin: 0;
-      background: #f4f6f8;
+      background: #f4f7f6;
       color: #333;
     }
+
     header {
-      background: #0b5ed7;
+      background: linear-gradient(135deg, #1e8e8e, #146c6c);
       color: white;
-      padding: 20px;
+      padding: 40px 20px;
       text-align: center;
     }
-    section {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-      background: white;
+
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      font-size: 1.05rem;
+      opacity: 0.95;
+    }
+
+    .subscribe-btn {
+      display: inline-block;
       margin-top: 20px;
-      border-radius: 8px;
+      padding: 12px 22px;
+      background: #ff0000;
+      color: white;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: transform 0.2s, background 0.2s;
     }
+
+    .subscribe-btn:hover {
+      background: #cc0000;
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 25px;
+      max-width: 900px;
+      margin: 25px auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
     h2 {
-      color: #0b5ed7;
+      color: #1e8e8e;
+      margin-bottom: 10px;
     }
+
+    .social-icons {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin: 10px;
+      font-size: 26px;
+      color: #1e8e8e;
+      transition: transform 0.2s, color 0.2s;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2);
+      color: #146c6c;
+    }
+
+    .contact-list p {
+      margin: 8px 0;
+      font-size: 15px;
+    }
+
     footer {
       text-align: center;
-      padding: 15px;
+      padding: 18px;
       margin-top: 30px;
       font-size: 14px;
       color: #666;
     }
-    a {
-      color: #0b5ed7;
-      text-decoration: none;
-      font-weight: bold;
+
+    footer i {
+      color: #1e8e8e;
     }
   </style>
 </head>
+
 <body>
 
 <header>
   <h1>🚆 Train Talks with Raja</h1>
   <p>Railway Ticketing • Tatkal • WL • RAC • Rules Explained Simply</p>
+
+  <a class="subscribe-btn" 
+     href="https://www.youtube.com/@TrainTalksWithRaja" 
+     target="_blank">
+    ▶ Subscribe on YouTube
+  </a>
 </header>
 
 <section>
   <h2>About</h2>
   <p>
-    This website is created for passenger awareness and educational purposes.
-    Here, I explain Indian Railway ticketing rules, Tatkal booking,
-    Waiting List movement, and refund policies in simple language.
+    This platform is created for passenger awareness and educational purposes.
+    Here, railway ticketing rules, Tatkal booking process, Waiting List movement,
+    RAC status, and refund policies are explained in a simple and
+    easy-to-understand manner.
   </p>
 </section>
 
 <section>
-  <h2>YouTube Channel</h2>
-  <p>
-    Watch detailed videos on railway ticket booking:
-    <br><br>
-    👉 <a href="https://www.youtube.com/@TrainTalksWithRaja" target="_blank">
-      Visit Train Talks with Raja
+  <h2>Connect with Me</h2>
+
+  <div class="social-icons">
+    <a href="https://t.me/+fen4keKM-S81YTFl" target="_blank" title="Telegram">
+      <i class="fab fa-telegram"></i>
     </a>
-  </p>
+
+    <a href="https://chat.whatsapp.com/EwSLdsZwdd72ACTe8GSbX2" target="_blank" title="WhatsApp Community">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="https://www.facebook.com/share/1KWxFDmJSH/" target="_blank" title="Facebook Page">
+      <i class="fab fa-facebook"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/raja-laha-%F0%9F%87%AE%F0%9F%87%B3-61643a197" target="_blank" title="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a>
+
+    <a href="mailto:traintalkswithraja@gmail.com" title="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+</section>
+
+<section>
+  <h2>Contact Details</h2>
+  <div class="contact-list">
+    <p><i class="fas fa-envelope"></i> traintalkswithraja@gmail.com</p>
+    <p><i class="fab fa-telegram"></i> Telegram Community</p>
+    <p><i class="fab fa-whatsapp"></i> WhatsApp Community</p>
+  </div>
 </section>
 
 <section>
   <h2>Disclaimer</h2>
   <p>
-    This website and related videos are for educational purposes only.
-    Views expressed are personal and do not represent Indian Railways,
-    IRCTC, CRIS, or the Government of India.
+    This website and all associated content are intended solely for educational
+    and passenger awareness purposes. The views expressed are personal and do not
+    represent Indian Railways, IRCTC, CRIS, or the Government of India.
   </p>
 </section>
 
 <footer>
-  © 2026 Train Talks with Raja | Happy Journey 🚆
+  © 2026 Train Talks with Raja | Happy Journey <i class="fas fa-train"></i>
 </footer>
 
 </body>
